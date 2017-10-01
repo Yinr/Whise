@@ -1,16 +1,14 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
+
+from modules.Player import Player
+
 """
 音轨类
 """
-class Track(object):
+class Track(Player):
 
     def __init__(self, music_path):
-        pass
-
-    def play(self):
-        pass
-
-    def pause(self):
+        super(Player, self).__init__()
         pass
