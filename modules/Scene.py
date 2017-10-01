@@ -14,6 +14,7 @@ class Scene(Player):
         self.scene_name = None
         self.scene_description = None
         self.scene_category = None
+        self.track_ = []
         pass
 
     def set_scene_name(self, scene_name):
@@ -36,3 +37,11 @@ class Scene(Player):
 
     def get_scene_category(self):
         return self.scene_category
+
+    def add_track(self, track):
+        self.track_.append(track)
+        return self
+
+    def del_track(self, track):
+        self.track_.remove(track)
+        return self
