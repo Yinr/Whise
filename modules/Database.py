@@ -11,7 +11,7 @@ class Database(object):
         pass
 
     def load(self):
-        pass
+        return self
 
     def save(self):
-        pass
+        return self

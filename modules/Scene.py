@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 
-from modules.Player import Player
+from Player import Player
 
 
 class Scene(Player):
@@ -10,8 +10,8 @@ class Scene(Player):
     场景类
     """
 
-    def __init__(self):
-        super(Player, self).__init__()
+    def __init__(self, music_path):
+        super(Scene, self).__init__(music_path)
         self.scene_name = None
         self.scene_description = None
         self.scene_category = None

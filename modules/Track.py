@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 
-from modules.Player import Player
+from Player import Player
 
 
 class Track(Player):
@@ -11,7 +11,7 @@ class Track(Player):
     """
 
     def __init__(self, music_path):
-        super(Player, self).__init__()
+        super(Track, self).__init__(music_path)
         self.tag = None
         pass
 
