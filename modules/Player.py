@@ -2,10 +2,10 @@
 # -*- coding: utf-8 -*-
 
 
-"""
-播放器类
-"""
 class Player(object):
+    """
+    播放器类
+    """
 
     def __init__(self):
         self.volume = 0

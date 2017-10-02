@@ -2,10 +2,10 @@
 # -*- coding: utf-8 -*-
 
 
-"""
-配置类
-"""
 class Config(object):
+    """
+    配置类
+    """
 
     def __init__(self):
         pass

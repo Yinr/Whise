@@ -2,10 +2,10 @@
 # -*- coding: utf-8 -*-
 
 
-"""
-数据库类
-"""
 class Database(object):
+    """
+    数据库类
+    """
 
     def __init__(self):
         pass

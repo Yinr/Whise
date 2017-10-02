@@ -4,10 +4,11 @@
 
 from modules.Player import Player
 
-"""
-场景类
-"""
+
 class Scene(Player):
+    """
+    场景类
+    """
 
     def __init__(self):
         super(Player, self).__init__()
