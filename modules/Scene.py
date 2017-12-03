@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 
-from Player import Player
+from .Player import Player
 
 
 class Scene(Player):
@@ -26,7 +26,7 @@ class Scene(Player):
         return self.scene_name
 
     def set_scene_description(self, scene_description):
-        self.set_scene_description = scene_description
+        self.scene_description = scene_description
         return self
 
     def get_scene_description(self):
